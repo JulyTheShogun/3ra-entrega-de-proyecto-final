@@ -1,0 +1,19 @@
+.header-bg {
+  background-image: url(https://i.pinimg.com/originals/98/32/36/983236a02e5d7e4d62d85c35445b6563.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.footer-bg {
+  background-image: url(https://i.pinimg.com/originals/98/32/36/983236a02e5d7e4d62d85c35445b6563.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-areas: "wsp inst" "copyr copyr";
+  grid-template-rows: 1fr;
+  grid-template-columns: 100px 100px 100px; }
+  .footer-bg .whatsapp {
+    grid-area: wsp; }
+  .footer-bg .instagram {
+    grid-area: inst; }
+  .footer-bg .copy {
+    grid-area: copyr; }
