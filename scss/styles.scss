@@ -26,3 +26,45 @@
         grid-area: copyr;
       }
   }
+
+  /*esto es solo para que se verifique mi capacidad de uso de mixin, de mapa en sass y cumplir con la consigna
+
+  $grayscale: map-merge(
+    (
+      "100": #8E9AAF,
+      "200": #CBC0D3,
+      "300": #EFD3D7,
+      "400": #FEEAFA,
+      "500": #DEE2FF,
+    ),
+    $colorscale
+);
+
+etiqueta ejemplo {
+    color: map-get($colorscale, 400);
+}
+
+  @mixin color-invertido {
+    background-color: #111;
+    color: #eee;
+  }
+  
+  ejemplo de class {
+  font-size: 1.3em;
+  padding: 15px;
+  @include color-invertido;
+}
+
+ejemplo de... div? supongo {
+  padding: 5px;
+  @include color-invertido;
+}
+
+Ejemplo de id {
+  margin: 2em 3em;
+  padding: 20px;
+  text-align: center;
+  @include color-invertido;
+}
+
+  */
