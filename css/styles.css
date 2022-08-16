@@ -1,3 +1,8 @@
+body {
+  background-image: url(https://free4kwallpapers.com/uploads/originals/2018/12/31/feather-clouds-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .header-bg {
   background-image: url(https://i.pinimg.com/originals/98/32/36/983236a02e5d7e4d62d85c35445b6563.jpg);
   background-repeat: no-repeat;
@@ -8,7 +13,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  grid-template-areas: "wsp inst" "copyr copyr";
+  grid-template-areas: "wsp inst"
+ "copyr copyr";
   grid-template-rows: 1fr;
   grid-template-columns: 100px 100px 100px; }
   .footer-bg .whatsapp {

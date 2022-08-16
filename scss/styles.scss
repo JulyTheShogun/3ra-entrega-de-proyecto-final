@@ -1,3 +1,8 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/9d/68/b3/9d68b36f55ba959d18795b0534d6aa89.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+
 .header-bg {
     background-image: url(https://i.pinimg.com/originals/98/32/36/983236a02e5d7e4d62d85c35445b6563.jpg);
     background-repeat: no-repeat;
@@ -26,6 +31,7 @@
         grid-area: copyr;
       }
   }
+}
 
   /*esto es solo para que se verifique mi capacidad de uso de mixin, de mapa en sass y cumplir con la consigna
 
