@@ -1,28 +1,30 @@
 body {
-  background-image: url(https://free4kwallpapers.com/uploads/originals/2018/12/31/feather-clouds-wallpaper.jpg);
+  background-image: url(https://wallpaperaccess.com/full/3112065.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
-
-.header-bg {
-  background-image: url(https://i.pinimg.com/originals/98/32/36/983236a02e5d7e4d62d85c35445b6563.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.footer-bg {
-  background-image: url(https://i.pinimg.com/originals/98/32/36/983236a02e5d7e4d62d85c35445b6563.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: grid;
-  grid-template-areas: "wsp inst"
- "copyr copyr";
-  grid-template-rows: 1fr;
-  grid-template-columns: 100px 100px 100px; }
-  .footer-bg .whatsapp {
-    grid-area: wsp; }
-  .footer-bg .instagram {
-    grid-area: inst; }
-  .footer-bg .copy {
-    grid-area: copyr; }
+  body .line-through {
+    text-decoration: line-through; }
+  body .white-text {
+    color: white;
+    text-decoration-color: white; }
+  body .header-bg {
+    background-image: url(https://i.pinimg.com/originals/98/32/36/983236a02e5d7e4d62d85c35445b6563.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  body .footer-bg {
+    background-image: url(https://i.pinimg.com/originals/98/32/36/983236a02e5d7e4d62d85c35445b6563.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: "wsp inst" "copyr copyr";
+    grid-template-rows: 1fr;
+    grid-template-columns: 100px 100px 100px; }
+    body .footer-bg .whatsapp {
+      grid-area: wsp; }
+    body .footer-bg .instagram {
+      grid-area: inst; }
+    body .footer-bg .copy {
+      grid-area: copyr; }
 
 /*esto es solo para que se verifique mi capacidad de uso de mixin, de mapa en sass y cumplir con la consigna
 
